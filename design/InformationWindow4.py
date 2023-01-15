@@ -58,6 +58,7 @@ class Ui_Dialog(object):
         self.textEdit_4 = QtWidgets.QTextEdit(Dialog)
         self.textEdit_4.setGeometry(QtCore.QRect(300, 210, 191, 91))
         self.textEdit_4.setObjectName("textEdit_4")
+        self.textEdit_4.setReadOnly(True)
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)

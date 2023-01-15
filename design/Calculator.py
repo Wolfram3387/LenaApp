@@ -49,6 +49,7 @@ class Ui_Dialog(object):
         self.verticalLayout.addWidget(self.label)
         self.textEdit_2 = QtWidgets.QTextEdit(self.verticalLayoutWidget)
         self.textEdit_2.setObjectName("textEdit_2")
+        self.textEdit_2.setReadOnly(True)
         self.verticalLayout.addWidget(self.textEdit_2)
 
         self.retranslateUi(Dialog)

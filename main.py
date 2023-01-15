@@ -21,6 +21,7 @@ class HelloWindow(QtWidgets.QMainWindow, WelcomeWindow.Ui_WelcomeWindow):
         # Это здесь нужно для доступа к переменным, методам
         # и т.д. в файле WelcomeWindow.py
         super().__init__()
+        self.setFixedSize(509, 507)
         self.setupUi(self)  # Это нужно для инициализации нашего дизайна
         self.pushButton_2.clicked.connect(self.button_no)
         self.pushButton.clicked.connect(self.button_yes)
@@ -40,6 +41,7 @@ class GeneralWindow(QtWidgets.QMainWindow, MainWindow.Ui_MainWindow):
         # и т.д. в файле HelloWindow.py
         super().__init__()
         self.setupUi(self)  # Это нужно для инициализации нашего дизайна
+        self.setFixedSize(509, 507)
         # self.pushButton.clicked.connect(self.open_1_window)
         # self.pushButton_2.clicked.connect(self.open_2_window)
         self.pushButton.clicked.connect(self.open_1_window)
@@ -84,6 +86,7 @@ class OneWindow(QtWidgets.QMainWindow, InformationWindow1.Ui_Dialog):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
+        self.setFixedSize(509, 507)
         self.pushButton.clicked.connect(self.open_main_window)
 
     def open_main_window(self):
@@ -96,6 +99,7 @@ class TwoWindow(QtWidgets.QMainWindow, InformationWindow2.Ui_Dialog):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
+        self.setFixedSize(501, 507)
         self.pushButton.clicked.connect(self.open_main_window)
 
     def open_main_window(self):
@@ -108,6 +112,7 @@ class ThreeWindow(QtWidgets.QMainWindow, InformationWindow3.Ui_Dialog):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
+        self.setFixedSize(501, 507)
         self.pushButton.clicked.connect(self.open_main_window)
 
     def open_main_window(self):
@@ -120,6 +125,7 @@ class FourWindow(QtWidgets.QMainWindow, InformationWindow4.Ui_Dialog):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
+        self.setFixedSize(501, 507)
         self.pushButton.clicked.connect(self.open_main_window)
         self.pushButton_2.clicked.connect(self.open_calculator)
 
@@ -137,6 +143,7 @@ class FiveWindow(QtWidgets.QMainWindow, InformationWindow5.Ui_Dialog):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
+        self.setFixedSize(509, 507)
         self.pushButton_6.clicked.connect(self.open_main_window)
 
     def open_main_window(self):
@@ -149,6 +156,7 @@ class CalculatorWindow(QtWidgets.QMainWindow, Calculator.Ui_Dialog):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
+        self.setFixedSize(241, 182)
         self.pushButton.clicked.connect(self.calculate)
 
     def calculate(self):
