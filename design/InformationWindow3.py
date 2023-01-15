@@ -45,7 +45,7 @@ class Ui_Dialog(object):
         self.label.setGeometry(QtCore.QRect(10, 210, 221, 231))
         self.label.setStyleSheet("")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("/Users/Wolfram_3387/Downloads/lena_ui/images/Наклонение.png"))
+        self.label.setPixmap(QtGui.QPixmap("resources/Наклонение.png"))
         self.label.setObjectName("label")
 
         self.retranslateUi(Dialog)
@@ -58,19 +58,19 @@ class Ui_Dialog(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600;\">Большая полуось</span><span style=\" font-size:10pt;\"> - среднее расстояние планеты от Солнца(a)</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Например среднее расстояние Земли от Солнца принято в астрономии за единицу расстояния и назвается астрономической единицей.</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">a(Земли) = 1 а.е. = 149 600 тыс. км</span></p></body></html>"))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:13pt; font-weight:600;\">Большая полуось</span><span style=\" font-size:13pt;\"> - среднее расстояние планеты от Солнца(a)</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">Например среднее расстояние Земли от Солнца принято в астрономии за единицу расстояния и назвается астрономической единицей.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:13pt;\">a(Земли) = 1 а.е. = 149 600 тыс. км</span></p></body></html>"))
         self.textEdit_3.setHtml(_translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600;\">Долгота восходящего узла</span><span style=\" font-size:10pt;\"> - это точка, в которой орбита объекта проходит через плоскость отсчета.Долгота отсчитывается от оси х в сторону оси у.Измеряется в градусах (0 &lt;= долгота &lt;=360)</span></p></body></html>"))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:13pt; font-weight:600;\">Долгота восходящего узла</span><span style=\" font-size:12pt;\"> - это точка, в которой орбита объекта проходит через плоскость отсчета.Долгота отсчитывается от оси х в сторону оси у.Измеряется в градусах (0 &lt;= долгота &lt;=360)</span></p></body></html>"))
         self.textEdit_2.setHtml(_translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600;\">Наклонение</span><span style=\" font-size:10pt;\"> - измеряет наклон орбиты объекта влкруг небесного тела.</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Оно выражается как угол между плоскостью отсчета(плоскость, используемая для определения орбитальных элементов.Двумя основными элементами орбиты, которые измеряются относительно плоскости отсчета, являются наклон и долгота восходящего узла.) и плоскостью орбиты(геометрическая плоскость, в которой лежит орбита) или осью направления орбитального  объекта.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-weight:600;\">Наклонение</span><span style=\" font-size:14pt;\"> - измеряет наклон орбиты объекта влкруг небесного тела.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:13pt;\">Оно выражается как угол между плоскостью отсчета(плоскость, используемая для определения орбитальных элементов.Двумя основными элементами орбиты, которые измеряются относительно плоскости отсчета, являются наклон и долгота восходящего узла.) и плоскостью орбиты(геометрическая плоскость, в которой лежит орбита) или осью направления орбитального  объекта.</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><br /></p></body></html>"))
         self.pushButton.setText(_translate("Dialog", "НАЗАД"))

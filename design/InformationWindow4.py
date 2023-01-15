@@ -44,14 +44,14 @@ class Ui_Dialog(object):
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(300, 300, 201, 181))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("/Users/Wolfram_3387/Downloads/lena_ui/images/333.png"))
+        self.label.setPixmap(QtGui.QPixmap("resources/333.png"))
         self.label.setObjectName("label")
         self.pushButton_2 = QtWidgets.QPushButton(Dialog)
         self.pushButton_2.setGeometry(QtCore.QRect(10, 350, 171, 61))
         font = QtGui.QFont()
         font.setPointSize(10)
         font.setBold(True)
-        font.setWeight(75)
+        font.setWeight(200)
         self.pushButton_2.setFont(font)
         self.pushButton_2.setStyleSheet("background-color:#F08080")
         self.pushButton_2.setObjectName("pushButton_2")
@@ -70,25 +70,25 @@ class Ui_Dialog(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600;\">Аргумент перицентра</span><span style=\" font-size:10pt;\"> - величина, определяющая ориентацмию орбиты небесного тела относительно плоскости эклиптики(годичное движение Солнца относильно звёзд) или экватора другого небесного тела.Измеряется против часовой стрелки от восходящего узла в плоскости орбиты.</span></p></body></html>"))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Аргумент перицентра</span><span style=\" font-size:12pt;\"> - величина, определяющая ориентацмию орбиты небесного тела относительно плоскости эклиптики(годичное движение Солнца относильно звёзд) или экватора другого небесного тела.Измеряется против часовой стрелки от восходящего узла в плоскости орбиты.</span></p></body></html>"))
         self.textEdit_2.setHtml(_translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600;\">Средняя аномалия(М)</span><span style=\" font-size:10pt;\">- отсчитываемое от перицентра(точки орбиты небесного тела) угловое положение гипотического тела, движущегося с постоянной скоростью по круговой орбите.</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">М = 2П/Т* t, где Т(период обращения) и t (время прохождения перицентра)</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:13pt; font-weight:600;\">Средняя аномалия(М)</span><span style=\" font-size:12pt;\">- отсчитываемое от перицентра(точки орбиты небесного тела) угловое положение гипотического тела, движущегося с постоянной скоростью по круговой орбите.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">М = 2П/Т* t, где Т(период обращения) и t (время прохождения перицентра)</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><br /></p></body></html>"))
         self.pushButton.setText(_translate("Dialog", "НАЗАД"))
         self.textEdit_3.setHtml(_translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600;\">Эксцентриситет(е)</span><span style=\" font-size:10pt;\"> - числовая характеристика конического сечения(пересечение плоскости с поверхностью прямого кругого конуса), показывающая степень его отклонения от окружности.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:13pt; font-weight:600;\">Эксцентриситет(е)</span><span style=\" font-size:14pt;\"> - числовая характеристика конического сечения(пересечение плоскости с поверхностью прямого кругого конуса), показывающая степень его отклонения от окружности.</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt;\"><br /></p></body></html>"))
         self.pushButton_2.setText(_translate("Dialog", "Узнать форму орбиты"))
         self.textEdit_4.setHtml(_translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">Эксцентриситет может быть выражен через отношение большой(а) и малой(b) полуосей.</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt;\">е = корень из 1 - b</span><span style=\" font-size:10pt; vertical-align:super;\">2</span><span style=\" font-size:10pt;\">/a</span><span style=\" font-size:10pt; vertical-align:super;\">2</span></p></body></html>"))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">Эксцентриситет может быть выражен через отношение большой(а) и малой(b) полуосей.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">е = корень из 1 - b</span><span style=\" font-size:10pt; vertical-align:super;\">2</span><span style=\" font-size:10pt;\">/a</span><span style=\" font-size:10pt; vertical-align:super;\">2</span></p></body></html>"))
